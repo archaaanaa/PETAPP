@@ -1,7 +1,5 @@
 {
   "expo": {
-    
-   
     "name": "LoginSignUp",
     "slug": "LoginSignUp",
     "version": "1.0.0",
@@ -10,6 +8,9 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "extra": {
+      "expoPublicClerkPublishableKey": "pk_test_cHJvZm91bmQtYXJhY2huaWQtMjQuY2xlcmsuYWNjb3VudHMuZGV2JA"
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -34,7 +35,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
